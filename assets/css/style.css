@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* CSS style applied to html elements */
 body {
     background-color: #d9dcd6;
 }
@@ -17,83 +18,8 @@ p {
     font-size: 16px;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.benefits {
+/* Changed from styling a class (previously .benefits) to an html semantic element and moved to the html element section in the stylesheet to follow semantic structure */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,22 +30,111 @@ p {
     background-color: #2589bd;
 }
 
+/* CSS style applied to classes */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Positions header and sets font size of heading 1*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changes font color in "seo" of header */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Sets navbar in header to specified styling and positions it to the right */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Makes navbar list without bullet points or numbers */
+.header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Positions background photo under header */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sets up display for main content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Breaks main content into subsections and styles/positions each subsection*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets max height for each image in the subesctions of the main content area */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Positions/styles the headings in the subsections of the main content area */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Positions two of the subsection images to the left in the main content area */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Positions one image in the subsection of the main content area to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Positions/styles subsections of the sidebar */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Positions/styles headings of subsections of the sidebar */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Positions images of subsections of the sidebar */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Positions/styles the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +142,7 @@ p {
     text-align: center;
 }
 
+/* Changes the font size of the heading in the footer section */
 .footer h2 {
     font-size: 20px;
 }
