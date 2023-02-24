@@ -22,9 +22,9 @@ Alternatively, you can scroll down the page to find more informtion.
 
 Tutorials followed:
 
-* HTML Semantic Elements: https://www.w3schools.com/html/html5_semantic_elements.asp
-* Professional README Guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-* Markdown Cheatsheet: https://www.markdownguide.org/cheat-sheet/
+* [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## License
 
