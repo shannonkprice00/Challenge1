@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-To visit the webpage, click [here.](https://shannonkprice00.github.io/Challenge1/)
+To visit the webpage, click [here.](https://shannonkprice00.github.io/Shannon-Price-Challenge-One/)
 
 This webpage includes information regarding search engine optimization, online reputation management, and social media marketing. To jump to each section on the webpage, you can use the navigation bar (pictured below). Click on each subject and the page will jump down to where there is more information. 
 
