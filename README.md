@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-To visit the webpage, use the following URL: https://shannonkprice00.github.io/Challenge1/
+To visit the webpage, click [here.](https://shannonkprice00.github.io/Challenge1/)
 
 This webpage includes information regarding search engine optimization, online reputation management, and social media marketing. To jump to each section on the webpage, you can use the navigation bar (pictured below). Click on each subject and the page will jump down to where there is more information. 
 
@@ -24,6 +24,7 @@ Tutorials followed:
 
 * HTML Semantic Elements: https://www.w3schools.com/html/html5_semantic_elements.asp
 * Professional README Guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+* Markdown Cheatsheet: https://www.markdownguide.org/cheat-sheet/
 
 ## License
 
